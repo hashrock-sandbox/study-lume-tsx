@@ -6,5 +6,6 @@ const site = lume();
 
 site.use(windi_css());
 site.use(jsx({/* your config here */}));
+site.copy("static");
 
 export default site;
